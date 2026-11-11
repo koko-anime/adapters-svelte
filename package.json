@@ -18,7 +18,8 @@
   "scripts": {
     "build": "tsdown",
     "typecheck": "tsc --noEmit -p .",
-    "test": "bun test --conditions browser"
+    "test": "bun test --conditions browser",
+    "prepublishOnly": "bun run typecheck && bun run test && bun run build"
   },
   "peerDependencies": {
     "@koko-anime/formats": "~0.4.0",
@@ -30,5 +31,9 @@
     "tsdown": "^0.23.7",
     "typescript": "^5.9.0",
     "svelte": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koko-anime/adapters-svelte.git"
   }
 }
