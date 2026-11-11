@@ -30,7 +30,7 @@ export default defineConfig({ plugins: [svelte()] });
 - Nie przekazuj dokumentów do `$state()` — są już reaktywne.
 - Testy działają z `--conditions browser`: w Bun domyślnie ładuje się serwerowy build Svelte, w którym reaktywność jest wyłączona.
 
-Wersja 0.1.0 · wymaga `@koko-anime/formats ~0.3.0` · licencja MIT.
+Wersja 0.2.0 · wymaga `@koko-anime/formats ~0.4.0` (API pluginów 0.4) · licencja MIT.
 
 ## Rozwój
 
@@ -41,4 +41,4 @@ bun run typecheck
 bun run build
 ```
 
-Do czasu publikacji `@koko-anime/formats@0.3.0` na npm: w repo rdzenia `cd packages/formats && bun run build && bun link`, a tutaj `bun link @koko-anime/formats` przed `bun install`.
+Do czasu publikacji `@koko-anime/formats@0.4.0` na npm: w repo rdzenia `cd packages/formats && bun run build && bun link`, a tutaj `bun link @koko-anime/formats` przed `bun install`.

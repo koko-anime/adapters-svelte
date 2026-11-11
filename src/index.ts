@@ -28,6 +28,7 @@ function createAtom(): Atom {
 export function svelte() {
   return definePlugin({
     name: 'svelte',
+    api: '0.4',
     reactivity: { createAtom, untrack },
   });
 }

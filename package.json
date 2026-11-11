@@ -1,6 +1,6 @@
 {
   "name": "@koko-anime/adapters-svelte",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Adapter Svelte 5 (≥ 5.7) dla @koko-anime/formats",
   "license": "MIT",
   "type": "module",
@@ -21,11 +21,11 @@
     "test": "bun test --conditions browser"
   },
   "peerDependencies": {
-    "@koko-anime/formats": "~0.3.0",
+    "@koko-anime/formats": "~0.4.0",
     "svelte": "^5.7.0"
   },
   "devDependencies": {
-    "@koko-anime/formats": "~0.3.0",
+    "@koko-anime/formats": "~0.4.0",
     "@types/bun": "latest",
     "tsdown": "^0.23.7",
     "typescript": "^5.9.0",
